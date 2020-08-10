@@ -21,7 +21,7 @@ const listOfSquareIds = ['sqA', 'sqB', 'sqC', 'sqD'];
 
 export default function Squares() {
 
-  const [squares, setSquares] = useState(listOfSquareIds)
+  const [squares] = useState(listOfSquareIds)
   // Use the state hook twice, as we need two slices of state: 'squares' and
 
   const [activeSquare, setActiveSquare] = useState(null)
